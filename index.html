@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopsy - Your Online Shopping Destination</title>
+    <link rel="stylesheet" href="C:\Users\Gagan gowda\OneDrive\Desktop\src\styles\main.css">
+    <link rel="stylesheet" href="C:\Users\Gagan gowda\OneDrive\Desktop\src\styles\header.css">
+    <link rel="stylesheet" href="C:\Users\Gagan gowda\OneDrive\Desktop\src\styles\products.css">
+    <link rel="stylesheet" href="C:\Users\Gagan gowda\OneDrive\Desktop\src\styles\cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Shopsy</h1>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="cart-icon" id="cartIcon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Shopsy</h2>
+                <p>Discover Amazing Deals Today</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+        </section>
+
+        <section class="featured-categories">
+            <h2>Featured Categories</h2>
+            <div class="category-grid" id="categoryGrid"></div>
+        </section>
+
+        <section class="products-section">
+            <h2>Trending Products</h2>
+            <div class="products-grid" id="productsGrid"></div>
+        </section>
+
+        <div class="cart-sidebar" id="cartSidebar">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems"></div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button class="checkout-button">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Shopsy</h3>
+                <p>Your trusted online shopping destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shopsy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="C:\Users\Gagan gowda\OneDrive\Desktop\src\js\main.js"></script>
+</body>
+</html>
